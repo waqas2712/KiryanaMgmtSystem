@@ -1,6 +1,6 @@
 # Kiryana Management System
 
-A desktop application for small Pakistani village kiryana (general) stores to replace handwritten stock and customer credit registers with a simple digital system. The shopkeeper can manage products, track inventory, process cash and credit sales, and manage customer khata — all from one screen.
+A desktop application for small village kiryana (general) stores to replace handwritten stock and customer credit registers with a simple digital system. The shopkeeper can manage products, track inventory, process cash and credit sales, and manage customer khata — all from one screen.
 
 ---
 
@@ -24,17 +24,29 @@ A desktop application for small Pakistani village kiryana (general) stores to re
 
 ---
 
-## Purpose
-
-Village shopkeepers in Pakistan record stock and customer debt (khata) using handwritten registers. This is slow, error-prone, and gives no way to track history. This system solves that by providing:
-
-- A secure login for the shopkeeper
-- A Point of Sale screen to sell products by pieces, weight, or rupee amount
-- Automatic stock deduction after every sale
-- Customer credit (khata) tracking with full payment history
-- Inventory management with low stock alerts
-- A live dashboard showing pending debts, recent sales, and low stock items
-
+## Purpose — What Problem This Solves
+ 
+I built this application for my cousin who runs a small kiryana store in our village. He was facing three specific problems every day that this system directly solves.
+ 
+**Problem 1 — Slow calculations at rush time**
+Customers in a village kiryana store do not always ask for a fixed quantity. They say things like "give me sugar worth Rs. 20" or "give me oil worth Rs. 50." My cousin had to manually calculate the quantity and price every time. During busy hours this caused mistakes and slowed everything down.
+ 
+**Solution:** The Sell Panel has three selling modes — by pieces, by weight, and by rupee amount. When a customer asks for Rs. 20 worth of sugar, the shopkeeper enters 20 in the By Amount mode and the system automatically calculates the quantity and subtotal instantly.
+ 
+---
+ 
+**Problem 2 — Stock tracking during rush**
+While serving customers my cousin had no way to monitor which items were running low. He kept a separate handwritten note of low stock items but would forget to update it during busy hours.
+ 
+**Solution:** The Dashboard shows a live Low Stock Warning section. The moment any product's quantity falls below its set threshold, it appears there automatically. The shopkeeper sees it the moment he opens the application.
+ 
+---
+ 
+**Problem 3 — Khata management and forgotten entries**
+My cousin maintains credit accounts for many customers. Sometimes he would forget to record a purchase or a payment in the customer's khata. This caused disputes — a customer would claim they had paid but there was no record. It damaged trust and created financial confusion.
+ 
+**Solution:** Every credit sale automatically creates a khata record — the shopkeeper cannot forget because the system does it automatically. Every payment is recorded with a date and time. The Debt Panel shows the complete credit and payment history of every customer so nothing is ever lost.
+ 
 ---
 
 ## Main Modules and Class Groups
