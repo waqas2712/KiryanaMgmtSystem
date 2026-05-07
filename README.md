@@ -8,7 +8,7 @@ A desktop application for small Pakistani village kiryana (general) stores to re
 
 | Full Name | CMS / Student ID | Section |
 |-----------|-----------------|---------|
-| [Your Full Name] | [Your CMS ID] | [Your Section e.g. BCS-5A] |
+| [Waqas ur Rehman Ghumro] | [023-25-0121] | [BSCS-II Section (D)] |
 
 ---
 
