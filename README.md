@@ -20,7 +20,7 @@ A desktop application for small Pakistani village kiryana (general) stores to re
 
 ## GitHub Repository
 
-[https://github.com/YOURUSERNAME/KiryanaMgmtSystem](https://github.com/YOURUSERNAME/KiryanaMgmtSystem)
+[KiryanaMgmtSystem](https://github.com/waqas2712/KiryanaMgmtSystem)
 
 ---
 
