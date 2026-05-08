@@ -14,7 +14,7 @@ A desktop application for small village kiryana (general) stores to replace hand
 
 ## Demo Video
 
-[Click here to watch the demo video]([PASTE YOUR YOUTUBE LINK HERE])
+[Click here to watch the demo video]([https://drive.google.com/file/d/1c6tF2g9hq_XDo4ZDndmuGVb2pyiXK9mn/view?usp=sharing])
 
 ---
 
